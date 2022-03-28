@@ -4,6 +4,9 @@ import Head from "next/head";
 export default function FirstPost() {
   return (
     <>
+      <Head>
+        <title>First Post</title>
+      </Head>
       <img src="/images/profile.jpg" alt="Your Name" />
       <h1>First Post</h1>
       <h2>
