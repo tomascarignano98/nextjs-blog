@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Layout from "../../components/Layout";
+import Head from 'next/head';
+import Layout from '../../components/Layout';
 
 export default function FirstPost() {
   return (
@@ -7,7 +7,7 @@ export default function FirstPost() {
       <Head>
         <title>First Post</title>
       </Head>
-      <p>First Post</p>
+      <h1>First Post</h1>
     </Layout>
   );
 }
