@@ -7,7 +7,12 @@ import utilStyles from '../styles/utils.module.css';
 const name = 'Tomas';
 export const siteTitle = 'Next.js Sample Website';
 
-export default function Layout({ children, home }) {
+interface LayotProps {
+  children: React.ReactNode;
+  home?: boolean;
+}
+
+export default function Layout({ children, home }: LayotProps) {
   return (
     <div className={styles.container}>
       <Head>
